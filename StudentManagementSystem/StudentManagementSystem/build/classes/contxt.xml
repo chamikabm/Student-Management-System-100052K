@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+
+
+<bean id="stu1" class="org.cse.springtute.Student" p:firstName= "Sudheera" p:lastName= "Palihakkara" p:regNumber= "1000366" p:address= "Moratuwa, Sri Lanka" > </bean>
+<bean id="stu2" class="org.cse.springtute.Student" p:firstName= "Vidudaya" p:lastName= "Bandara" p:regNumber= "100055" p:address= "Moratuwa, Sri Lanka" > </bean>
+<bean id="stu3" class="org.cse.springtute.Student" p:firstName= "Chamika" p:lastName= "Kasun" p:regNumber= "100052" p:address= "Moratuwa, Sri Lanka" > </bean>
+<bean id="stu4" class="org.cse.springtute.Student" p:firstName= "Kamal" p:lastName= "Sanjeewa" p:regNumber= "100233" p:address= "Panadura, Sri Lanka" > </bean>
+<bean id="stu5" class="org.cse.springtute.Student" p:firstName= "Nimal" p:lastName= "Sundaram" p:regNumber= "100255" p:address= "Kalutara, Sri Lanka" > </bean>
+<bean id="stu6" class="org.cse.springtute.Student" p:firstName= "Sunil" p:lastName= "Gamage" p:regNumber= "100364" p:address= "Kandy, Sri Lanka" > </bean>
+
+</beans>
