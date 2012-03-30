@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+
+
+<!-- this below code use to set 6 student records -->
+<bean id="s1" class="studentmanagementsystem.Student" p:firstName= "Vidudaya" p:lastName= "Bandara" p:regNumber= "1000" p:address= "Kurunegala" > </bean>
+<bean id="s2" class="studentmanagementsystem.Student" p:firstName= "Sudeera" p:lastName= "Palihakkara" p:regNumber= "1001" p:address= "Mathara" > </bean>
+<bean id="s3" class="studentmanagementsystem.Student" p:firstName= "Chamika" p:lastName= "Bandara" p:regNumber= "1002" p:address= "Tissamaharamaya" > </bean>
+<bean id="s4" class="studentmanagementsystem.Student" p:firstName= "Rashmi" p:lastName= "Woranga" p:regNumber= "1003" p:address= "Galle" > </bean>
+<bean id="s5" class="studentmanagementsystem.Student" p:firstName= "Samiththa" p:lastName= "Bashani" p:regNumber= "1004" p:address= "Akurassa" > </bean>
+<bean id="s6" class="studentmanagementsystem.Student" p:firstName= "Akila" p:lastName= "Pemasiri" p:regNumber= "1005" p:address= "Mathara" > </bean>
+
+</beans>
